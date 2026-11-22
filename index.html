@@ -233,7 +233,7 @@
                     <p>Каждое изделие проходит ручную обработку. Мы не делаем масс-маркет — мы создаем уникальные вещи с душой.</p>
                 </div>
                 <!-- Здесь используем вашу картинку -->
-                <img src="images/uiwber.jpg" alt="О мастерской" class="about-img">
+                <img src="uiwber.jpg" alt="О мастерской" class="about-img">
             </div>
         </section>
 
@@ -313,10 +313,10 @@
         document.addEventListener('DOMContentLoaded', () => {
             // ВСТАВЛЯЕМ ВАШИ ФОТОГРАФИИ ПО КОНТЕКСТУ
             const products = [
-                { id: 1, name: "Серьги 'Аметист'", price: 4500, material: "Серебро, аметист", category: "stone", img: "images/ring.jpg" },
-                { id: 2, name: "Колье 'Лазурит'", price: 6200, material: "Серебро, лазурит", category: "stone", img: "images/heik.jpg" },
-                { id: 3, name: "Браслет 'Малахит'", price: 3800, material: "Медь, малахит", category: "stone", img: "images/jeow.jpg" },
-                { id: 4, name: "Кольцо 'Роза'", price: 5000, material: "Серебро 925", category: "silver", img: "images/uiwber.jpg" }
+                { id: 1, name: "Серьги 'Аметист'", price: 4500, material: "Серебро, аметист", category: "stone", img: "ring.jpg" },
+                { id: 2, name: "Колье 'Лазурит'", price: 6200, material: "Серебро, лазурит", category: "stone", img: "heik.jpg" },
+                { id: 3, name: "Браслет 'Малахит'", price: 3800, material: "Медь, малахит", category: "stone", img: "jeow.jpg" },
+                { id: 4, name: "Кольцо 'Роза'", price: 5000, material: "Серебро 925", category: "silver", img: "uiwber.jpg" }
             ];
 
             let favorites = JSON.parse(localStorage.getItem('jewelryFavorites')) || [];
