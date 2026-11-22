@@ -513,26 +513,6 @@
                 e.target.reset();
                 setTimeout(() => { msg.textContent = ''; }, 3000);
             });
-
-            // Инициализация
-            favCount.textContent = favorites.length;
-            updateCartCount();
-            renderProducts();
-            <!-- скрипт Google Translate -->
-    <script type="text/javascript">
-      function googleTranslateElementInit() {
-        new google.translate.TranslateElement(
-          {
-            pageLanguage: 'ru',                 // язык страницы по умолчанию
-            layout: google.translate.TranslateElement.InlineLayout.SIMPLE, // стиль: компактная кнопка
-            autoDisplay: false                  // не показывать авто-выбор языка
-          },
-          'google_translate_element'
-        );
-      }
-    </script>
-    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
-        });
         });
     </script>
 </body>
