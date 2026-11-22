@@ -233,7 +233,7 @@
                     <p>Каждое изделие проходит ручную обработку. Мы не делаем масс-маркет — мы создаем уникальные вещи с душой.</p>
                 </div>
                 <!-- Здесь используем вашу картинку -->
-                <img src="uiwber.jpg" alt="О мастерской" class="about-img">
+                <img src="images/uiwber.jpg" alt="О мастерской" class="about-img">
             </div>
         </section>
 
@@ -513,6 +513,11 @@
                 e.target.reset();
                 setTimeout(() => { msg.textContent = ''; }, 3000);
             });
+
+            // Инициализация
+            favCount.textContent = favorites.length;
+            updateCartCount();
+            renderProducts();
         });
     </script>
 </body>
